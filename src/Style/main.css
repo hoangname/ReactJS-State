@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../../public/img/background.jpg');
+    background-size: cover;
+}
+
+.list-glass{
+    background: rgba(205, 209, 228, 0.5);
+    border-radius: 15px;
+
+}
+
+.card-body{
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    width: 287.18px;
+    font-size: 13px;
+    background-color: rgba(205, 209, 228, 0.5);
+}
+
+.card-item .model{
+    position: relative;
+}
+
+.card-item .glass-change{
+    position: absolute;
+    height: 17%;
+    top: 25%;
+    left: 36%;
+    width: 28%;
+}
